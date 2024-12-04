@@ -19,4 +19,11 @@ button.onclick = function() {
     var title = document.getElementById('title');
     title.innerText = newTitle;
 };
+var button = document.getElementById('concatenateTextBtn');
+button.onclick = function() {
+    var str1 = document.getElementById('string1').value;
+    var str2 = document.getElementById('string2').value;
+    var combinedText = document.getElementById('combinedText');
+    combinedText.innerText = str1 + str2;
+};
 
