@@ -26,4 +26,9 @@ button.onclick = function() {
     var combinedText = document.getElementById('combinedText');
     combinedText.innerText = str1 + str2;
 };
+var button = document.getElementById('changeColorBtn');
+button.onclick = function() {
+    var colorBox = document.getElementById('colorBox');
+    colorBox.style.backgroundColor = 'blue';
+};
 
