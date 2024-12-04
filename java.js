@@ -12,3 +12,11 @@ document.getElementById('addNumbersBtn').addEventListener('click', function() {
     let sum = num1 + num2;
     document.getElementById('result').innerText = `The result is: ${sum}`;
 });
+
+var button = document.getElementById('updateTitleBtn');
+button.onclick = function() {
+    var newTitle = document.getElementById('newTitle').value;
+    var title = document.getElementById('title');
+    title.innerText = newTitle;
+};
+
